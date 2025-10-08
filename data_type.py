@@ -76,7 +76,7 @@ elif x/-4 <= 1:
 else:
     print ("I can't math") 
 #2.2.3 Type gate + nested classification (Nested If/elif/else)
-if type(my_range) is range:     #outer condition
+if type(my_range) is list or range or tuple     #outer condition
     if len(my_range) == 0:
         print("empty")
     elif len(my_range) == 1:    #inner conditions run if outer condition is TRUE
